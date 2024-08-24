@@ -38,6 +38,8 @@ int main()
 }
 ```
 O/P:
+![Screenshot 2024-08-24 212316](https://github.com/user-attachments/assets/f4845f9d-1188-4c2f-9d05-45a6447e89c8)
+
 2. Swapping values:
 ```
 #include<iostream> 
@@ -61,6 +63,10 @@ int main()
 ```
 
 O/P:
+
+![Screenshot 2024-08-24 212428](https://github.com/user-attachments/assets/48d22e05-a553-4113-8732-a08565699409)
+
+
 3. Swapping the values using call by reference:
 ```
 #include<iostream> 
@@ -84,6 +90,9 @@ int main()
 ```
 
 O/P:
+
+![Screenshot 2024-08-24 212502](https://github.com/user-attachments/assets/a7a0e1db-14f8-4211-8ddc-742de05a734b)
+
 
 # Conclusion
 In the first code, swapping doesn't work because the function parameters are passed by value, so changes don't affect the original variables. In the second code, although pointers are used, the swap logic is incorrect as it attempts to swap the pointers rather than the values they point to, and the function is incorrectly called without passing addresses. The third code correctly swaps the values by passing pointers and dereferencing them, successfully exchanging the values of a and b.
